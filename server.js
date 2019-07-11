@@ -1,6 +1,6 @@
-const Bundler = require('parcel-bundler'),
-      express = require('express'),
-      mongoose = require('mongoose');
+const Bundler = require('parcel-bundler');
+const express = require('express');
+const mongoose = require('mongoose');
 
 const bundler = new Bundler('./public/index.html', {});
 
