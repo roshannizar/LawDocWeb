@@ -1,10 +1,10 @@
+const port = process.env.PORT || 5000;
 const Bundler = require('parcel-bundler');
 const express = require('express');
-const mongoose = require('mongoose');
-
-const bundler = new Bundler('./public/index.html', {});
 
 const app = express();
+
+const bundler = new Bundler('./public/index.html', {});
 
 app.use(express.json());
 
@@ -16,13 +16,6 @@ app.get('/', function(req, res) {
     res.sendFile('./dist/index.html');
 });
 
-const port = process.env.PORT || 5000;
-
-app.listen(port, err => {
-    if(err) {
-        console.error(err);
-        return;
-    }
-
+app.listen(port, () => {
     console.log(`LawDoc is running on port ${port}`);
 });
