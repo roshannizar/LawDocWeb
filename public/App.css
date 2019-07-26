@@ -1,86 +1,39 @@
-.navi-top {
-    position:fixed;
-    float:right;
-    width:82%;
-    z-index:1;
-    right:0;
-    top:0;
-}
-.navi-top-link {
-    font-family: 'Calibri';
-    font-size:18px;
-    padding:15px;
-    background-color: transparent;
-}
-.navi-top-link a {
-    text-decoration: none;
-    color:black;
-}
-.slight-padding {
-    padding-top:20px;
-    padding-right:15px;
-}
-.left {
-    float:left;
-}
-.right {
-    float:right;
-}
-.search-bar {
-    border-radius:20px;
-    padding: 10px 15px 10px 15px;
-    border:none;
-    outline:none;
-    width:150%;
-    font-family: 'Calibri';
-    transition-duration: 0.5s;
-}
-.side-nav {
-    float:left;
-    position:fixed;
+.nav-bar {
+    width:100%;
+    position: fixed;
+    background-color: #263238;
     left:0;
     top:0;
-    height:100%;
-    width:18%;
-    /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 180%); */
-    background-image: linear-gradient(to right, #868f96 0%, #596164 90%);
 }
-.heading {
+.nav-brand {
+    float:left;
+    padding-left:10px;
+    padding-top:15px;
+    text-align:center;
+}
+.brand-icon {
+    text-align: justify;
+}
+.brand {
     font-family: 'Calibri';
-    font-size:22px;
-    padding:20px 10px 10px 10px;
+    font-size:20px;
+    color:#e0e0e0;
+}
+.link-bar {
+    float:right;
+    margin-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.link-bar-color {
+    color:#e0e0e0;
+}
+.person {
     text-align: center;
-    font-weight: bold;
-}
-.topic {
-    color:whitesmoke;
-}
-.btn-container {
     width:100%;
-    font-family: 'Calibri';
-    padding-left:10%;
-    padding-top:5%;
 }
-.container-heading {
-    font-family: 'Calibri';
-    color:whitesmoke;
-    font-size:18px;
-    font-weight: bold;
-}
-.btns {
-    margin-left:4%;
-    margin-top:5%;
-    border-left:1px solid whitesmoke;
-    width:98%;
-}
-.btn {
-    font-family: 'Calibri';
-    outline:none;
-    border:none;
-    background-color: transparent;
-    font-size: 16px;
-    color:whitesmoke;
-    margin:5px;
-    padding:10px 15px 10px 15px;
-    cursor: pointer;
+.person-img {
+    width:50%;
+    text-align: center;
+    border-radius: 50%;
 }
